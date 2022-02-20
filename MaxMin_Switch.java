@@ -18,6 +18,7 @@ class MaxMin_Switch {
         System.out.println("Enter a and b values");
         int a = sc.nextInt();
         int b = sc.nextInt();
+        sc.close();
         MaxMin_Switch M = new MaxMin_Switch();
         M.MaxMin(a, b);
     }
